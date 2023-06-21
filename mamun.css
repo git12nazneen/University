@@ -1,0 +1,409 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+/*  */
+.container{
+  width: 1450px;
+    margin: 0 auto;
+    
+}
+.col-md-4 img{
+    height: 70px;
+    width: 150px;
+}
+.col-md-2 i{
+    padding: 5px 15px;
+    font-size: 25px;
+}
+.col-md-2 p{
+    padding: 5px 15px;
+   
+}
+
+.col-md-4 i{
+    padding: 0 15px;
+    font-size: 25px;
+}
+/* menu */
+.menu{
+    background-color: rgb(15, 15, 82);
+   
+}
+.col-md-12 ul{
+    display: flex; 
+    justify-content: space-between;
+}
+.col-md-12 ul li {
+    padding-top: 10px;
+    line-height: 20px;
+   
+}
+.col-md-12 ul li a{
+    color: white;
+}
+.col-md-12 ul li a:hover{
+    color: rgba(181, 199, 206, 0.829);
+}
+/* banner */
+.banner{
+    background: url(./mamunimg/banner.jpg)no-repeat center / cover;
+    padding: 200px;
+}
+.one{
+    padding:80px 30px ;
+    border: 1px grey solid;
+    background-color: rgb(7, 214, 145);
+    width: 600px;
+}
+.one h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    font-size: 60px;
+}
+.one h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    font-size: 50px;
+    padding: 20px 0;
+}
+.one a{
+    color: aliceblue;
+    border: 1px rgb(17, 16, 16) solid;
+    padding: 15px 30px;
+    background-color: rgba(14, 13, 13, 0.712);
+}
+.one a:hover{
+    background-color: rgb(40, 204, 149);
+}
+/*  */
+.headpiece p{
+    padding: 40px 0;
+  
+}
+.headpiece a{
+    padding: 20px 40px;
+    border:1px solid rgb(12, 0, 0);
+    background-color: rgb(7, 119, 82);
+    color: rgba(0, 10, 17, 0.74);
+}
+.headpiece a:hover{
+    background-color: rgb(244, 248, 247);
+}
+/*  */
+.pic img{
+    height: 380px;
+    width:100%;
+}
+.text{
+    background-color: rgb(2, 2, 78);
+    height: 350px;
+  width: 100%;
+    
+}
+.col-md-6{
+    background-color: rgb(2, 2, 78);
+   
+}
+.text{
+    width: 500px;
+   
+}
+.text h2{
+    padding-top: 60px;
+    color: aquamarine;
+}
+.text p{
+color: white;
+    padding: 20px 0;
+}
+.text a{
+    padding: 20px 40px;
+    background-color: rgb(43, 92, 226);
+    border: 1px rgb(10, 10, 10) solid;
+    color: rgba(145, 168, 189, 0.74);
+}
+.text a:hover{
+    background-color: rgb(244, 248, 247);
+}
+/*  */
+.boy{
+    background: url(./mamunimg/m10.jpg)no-repeat center / cover;
+    padding: 40px 0;
+    color: wheat;
+position: relative;
+z-index: 1;
+}
+.boy::after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.425);
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+.boy-two{
+    background: url(./mamunimg/m11.jpg)no-repeat center / cover;
+    padding: 40px 0;
+    color: wheat;
+    position: relative;
+    z-index: 1;
+}
+.boy-two::after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.425);
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+.boy-three{
+    background: url(./mamunimg/m16.jpg)no-repeat center / cover;
+    padding: 40px 0;
+    color: wheat;
+    position: relative;
+    z-index: 1;
+}
+.boy-three::after{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.425);
+    top: 0%;
+    left: 0%;
+    z-index: -1;
+}
+.boy-two p{
+    padding: 5px 20px;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+   
+ }
+ .boy-two h3{
+     padding-top: 90px;
+  padding-left: 20px;
+  padding-right: 10px;
+  text-align: left;
+  border-bottom: 2px white solid ;
+  
+ }
+
+ .boy-three p{
+    padding: 5px 20px;
+    text-align: left;
+    color: white;
+    font-size: 20px;
+   
+ }
+ .boy-three h3{
+     padding-top: 90px;
+  padding-left: 20px;
+  padding-right: 10px;
+  text-align: left;
+  border-bottom: 2px white solid ;
+  
+ }
+.boy p{
+   padding: 5px 20px;
+   text-align: left;
+   color: white;
+   font-size: 20px;
+  
+}
+.boy h3{
+    padding-top: 90px;
+ padding-left: 20px;
+ padding-right: 10px;
+ text-align: left;
+ border-bottom: 2px white solid ;
+ 
+}
+.icon i{
+    color: rgb(184, 176, 176);
+    font-size: 20px;
+}
+.icon1 i{
+    color: rgb(184, 176, 176);
+    font-size: 20px;
+}
+/* read */
+.headpiece h5{
+    padding: 20px 40px;
+    background-color: rgb(13, 17, 27);
+    border: 1px rgb(248, 244, 244) solid;
+    color: rgba(145, 168, 189, 0.74);
+    width: 300px;
+    margin: 0 auto;
+}
+.headpiece h5:hover{
+    background-color: rgb(244, 248, 247);
+}
+/* life */
+/* .headerx{
+    background-color: rgb(63, 63, 175);
+} */
+.headp h1{
+   
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.headp h2{
+    color: rgb(64, 142, 210);
+}
+.headp span{
+    color: black;
+}
+/*  theree*/
+.col-md-3 img{
+    height: 250px;
+    width: 100%;
+    padding-bottom: 15px;
+}
+/*  */
+/* .sign{
+    background-color: white;
+} */
+
+.last{
+    background-color: rgb(5, 5, 92);
+}
+
+
+
+
+/* from start */
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* Add a background color when the inputs get focus */
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+  /* Extra styles for the cancel button */
+  .cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+  }
+  
+  /* Float cancel and signup buttons and add an equal width */
+  .cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* Style the horizontal ruler */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+   
+  /* The Close Button (x) */
+  .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+  }
+
+  /* footer */
+#foot{
+    padding: 20px 0;
+    background-color: rgb(250, 254, 253);
+   margin-top: 50px;
+}
+#foot span{
+    color: rgb(9, 143, 143);
+    font-size: 20px;
+}
